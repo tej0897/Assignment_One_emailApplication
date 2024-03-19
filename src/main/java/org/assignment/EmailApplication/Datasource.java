@@ -1,2 +1,6 @@
-package org.assignment.EmailApplication;public interface Datasource {
+package org.assignment.EmailApplication;
+
+public interface Datasource {
+
+    String [] getEmails();
 }
