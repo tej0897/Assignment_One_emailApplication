@@ -1,5 +1,6 @@
 package org.assignment.EmailApplication;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
@@ -7,6 +8,7 @@ public class EmailService {
 
     private Datasource datasource;
 
+    @Autowired
     public EmailService(Datasource datasource){
         this.datasource = datasource;
     }
